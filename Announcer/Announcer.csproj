@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net461</TargetFramework>
+    <PackageLicenseExpression>EUPL-1.2</PackageLicenseExpression>
+    <PackageTags>openmod openmod-plugin unturned</PackageTags>
+    <RootNamespace>Announcer</RootNamespace>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateNugetPackage>true</GenerateNugetPackage>
+    <Product>Announcer</Product>
+    <Nullable>enable</Nullable>
+    <WarningsAsErrors>nullable</WarningsAsErrors>
+    <NoWarn>$(NoWarn);NU1701;NU1702;CS0436</NoWarn>
+    <LangVersion>9.0</LangVersion>
+    <Version>1.2.0</Version>
+    <InformationalVersion>1.2.0</InformationalVersion>
+    <PackageVersion>1.2.0</PackageVersion>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>F.Announcer</PackageId>
+		<PackageDescription>This is a message announcer plugin for unturned</PackageDescription>
+		<PackageLicenseExpression>EUPL-1.2</PackageLicenseExpression>
+		<PackageAuthor>Feli</PackageAuthor>
+		<PackageTags>openmod openmod-plugin unturned</PackageTags>
+		<Version>1.2.0</Version>
+		<AssemblyVersion>1.2.0</AssemblyVersion>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<GenerateNugetPackage>true</GenerateNugetPackage>
+	</PropertyGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="OpenMod.Unturned" Version="3.0.13+c16f123" />
+    <PackageReference Include="Legacy2CPSWorkaround" Version="1.0.0">
+      <PrivateAssets>All</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies.net461" Version="1.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="config.yaml" />
+  </ItemGroup>
+
+  <Target Name="ChangeAliasesOfNugetRefs" BeforeTargets="FindReferenceAssembliesForReferences;ResolveReferences">
+    <ItemGroup>
+    </ItemGroup>
+  </Target>
+
+</Project>

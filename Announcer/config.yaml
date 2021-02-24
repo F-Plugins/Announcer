@@ -1,0 +1,8 @@
+Timer: 5
+Announces:
+  - Url: https://images-ext-1.discordapp.net/external/1Vg3rH_5wKUid81LpNF3YTOgl-x1Vvix0sNvfrhbtpE/https/unturneditems.com/media/253.png
+    Message: "Announce by FPlugins"
+    IsRich: true
+  - Url: https://images-ext-1.discordapp.net/external/1Vg3rH_5wKUid81LpNF3YTOgl-x1Vvix0sNvfrhbtpE/https/unturneditems.com/media/253.png
+    Message: "{color=red}Just another announce{/color}"
+    IsRich: true
