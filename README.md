@@ -1,5 +1,5 @@
 # Announcer
-![Discord](https://img.shields.io/discord/742861338233274418?label=Discord&logo=Discord) ![NugetDownloads](https://img.shields.io/nuget/dt/F.Announcer?label=Nuget%20Downloads) [![Github All Releases](https://img.shields.io/github/downloads/01-Feli/F.Announcer/total?label=Github%20Downloads)]()
+![Discord](https://img.shields.io/discord/742861338233274418?label=Discord&logo=Discord) ![NugetDownloads](https://img.shields.io/nuget/dt/F.Announcer?label=Nuget%20Downloads) [![Github All Releases](https://img.shields.io/github/downloads/F-Plugins/Announcer/total?label=Github%20Downloads)]()
 
 This is a message announcer plugin for unturned
 
